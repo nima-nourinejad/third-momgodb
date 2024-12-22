@@ -1,5 +1,7 @@
 const mongoose = require("mongoose");
 
+
+
 async function clearDatabase() {
   try {
     const db = mongoose.connection.db;
