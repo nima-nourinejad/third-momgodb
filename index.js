@@ -16,6 +16,9 @@ async function clearDatabase() {
   }
 }
 
+
+
+
 async function clearCollection(name) {
   try {
     const db = mongoose.connection.db;
